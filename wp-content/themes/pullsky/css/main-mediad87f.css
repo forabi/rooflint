@@ -762,3 +762,7 @@
 	color: #4d4c4c;
 	margin-top: 50px
 }
+
+[lang="ar"] {
+	direction: rtl;
+}
