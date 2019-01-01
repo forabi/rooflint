@@ -605,7 +605,8 @@
 	.about-text {
 		position: absolute;
 		top: 46px;
-		right: 20px
+		right: 20px;
+		left: auto;
 	}
 	.about-img {
 		display: block

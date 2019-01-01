@@ -3,6 +3,11 @@
 	padding: 0
 }
 
+input, textarea {
+	direction: rtl;
+}
+
+
 li {
 	list-style-type: none
 }
@@ -421,19 +426,23 @@ article {
 }
 
 .success-item .img1 {
-	background: url(../img/success_img1.png) top left no-repeat
+	background: url(../img/success_img1.png) top left no-repeat;
+	background-position-x: right;
 }
 
 .success-item .img2 {
-	background: url(../img/success_img2.png) top left no-repeat
+	background: url(../img/success_img2.png) top left no-repeat;
+	background-position-x: right;
 }
 
 .success-item .img3 {
-	background: url(../img/success_img3.png) top left no-repeat
+	background: url(../img/success_img3.png) top left no-repeat;
+	background-position-x: right;
 }
 
 .success-item .img4 {
-	background: url(../img/success_img4.png) top left no-repeat
+	background: url(../img/success_img4.png) top left no-repeat;
+	background-position-x: right;
 }
 
 .large-text_color_blue {
@@ -571,6 +580,8 @@ article {
 	height: 26px;
 	display: block;
 	background: url(../img/apostrof.png)top left no-repeat;
+	background-position-x: right;
+	transform: scaleX(-1) scaleY(-1);
 	padding: 23px
 }
 

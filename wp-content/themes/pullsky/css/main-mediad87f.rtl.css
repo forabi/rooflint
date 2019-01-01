@@ -1,35 +1,31 @@
-@import './main-mediad87f.css';
-
 @media (max-width: 1200px) {
 	.liner .line {
 		height: 100%
 	}
 	.liner .block-left, .liner .block-right {
-		height: 90px
-	}
-	[dir] .liner .block-left, [dir] .liner .block-right {
+		height: 90px;
 		margin-bottom: 45px
 	}
-	[dir=rtl] .liner .block-left span {
+	.liner .block-left span {
 		right: 25px
 	}
-	[dir=rtl] .liner .block-left p {
+	.liner .block-left p {
 		right: 85px;
 		padding-right: 20px
 	}
-	[dir=rtl] .liner .block-right p {
+	.liner .block-right p {
 		right: 85px
 	}
-	[dir=rtl] .liner .block-right span {
+	.liner .block-right span {
 		right: 25px
 	}
-	[dir=rtl] .circ {
+	.circ {
 		right: 1%
 	}
-	[dir=rtl] .liner .line {
+	.liner .line {
 		right: 1%
 	}
-	[dir] .header-menu li a {
+	.header-menu li a {
 		padding: 15px 11px
 	}
 	.action-item {
@@ -43,7 +39,7 @@
 		display: inline-block;
 		width: 100%
 	}
-	[dir] .white-paste-img {
+	.white-paste-img {
 		margin-top: 30px
 	}
 	.wp-block {
@@ -52,16 +48,16 @@
 	.arrow {
 		display: none
 	}
-	[dir] .lang {
+	.lang {
 		background-color: #3E3E3E
 	}
-	[dir=rtl] .el-2 {
+	.el-2 {
 		margin-left: 0
 	}
-	[dir] .success-item:nth-child(2) {
+	.success-item:nth-child(2) {
 		margin: 0 70px
 	}
-	[dir=rtl] .success-item:nth-child(3) {
+	.success-item:nth-child(3) {
 		margin: 0 0 0 70px
 	}
 	.advantages {
@@ -75,18 +71,14 @@
 	}
 	.about-text {
 		display: inline-block;
-		position: relative
-	}
-	[dir] .about-text {
+		position: relative;
 		margin-top: 30px
 	}
 	.about-img {
-		display: inline-block
-	}
-	[dir] .about-img {
+		display: inline-block;
 		margin-bottom: 50px
 	}
-	[dir=rtl] .about .carousel-indicators {
+	.about .carousel-indicators {
 		right: 50%
 	}
 	.white-paste img {
@@ -95,8 +87,6 @@
 	.cp-insert-cover {
 		width: 214px;
 		height: 187px;
-	}
-	[dir=rtl] .cp-insert-cover {
 		margin-right: 0px;
 	}
 	.cp-insert-cover img {
@@ -108,37 +98,35 @@
 	.page-form input {
 		width: 95%
 	}
-	[dir=rtl] .page-form .btn4 {
+	.page-form .btn4 {
 		margin-right: 3%
 	}
-	[dir] .page-form {
+	.page-form {
 		padding: 0 3%
 	}
-	[dir=rtl] .form-cont {
+	.form-cont {
 		padding-right: 3%
 	}
 	.award-text {
 		display: inline-block;
 		width: 100%
 	}
-	[dir] .copyrite {
+	.copyrite {
 		margin-top: 20px
 	}
 	.video-block .text-block {
 		position: relative;
 		display: inline-block;
+		right: initial;
 		top: 37px
 	}
-	[dir=rtl] .video-block .text-block {
-		right: initial
-	}
-	[dir] .success-item:nth-child(2) {
+	.success-item:nth-child(2) {
 		margin: 0 10px
 	}
-	[dir=rtl] .success-item:nth-child(3) {
+	.success-item:nth-child(3) {
 		margin: 0 0 0 10px
 	}
-	[dir=rtl] .news-item:nth-child(3) {
+	.news-item:nth-child(3) {
 		margin: 0 15px 0 0
 	}
 	.advantages {
@@ -157,7 +145,7 @@
 	.footer-form {
 		top: 20px
 	}
-	[dir] .icons {
+	.icons {
 		margin-top: 10px
 	}
 	.cp-insert-cover {
@@ -169,42 +157,36 @@
 @media (max-width: 767px) {
 	.float-window, .float-window1 {
 		top: 1%;
+		right: 2%;
 		width: 96%
-	}
-	[dir=rtl] .float-window, [dir=rtl] .float-window1 {
-		right: 2%
 	}
 	.coment-item {
 		width: 95%
 	}
 	.sub-menu li {
-		display: block
-	}
-	[dir] .sub-menu li {
+		display: block;
 		margin: 10px 0
 	}
-	[dir=rtl] .action-item:nth-child(2n) {
+	.action-item:nth-child(2n) {
 		margin-left: 0
 	}
-	[dir=rtl] .action-main-text {
+	.action-main-text {
 		padding-right: 5px
 	}
 	.baner-text header {
 		font-size: 35pt
 	}
-	[dir] .baner-text {
+	.baner-text {
 		padding-top: 60px
 	}
-	[dir=rtl] .news-item:nth-child(3) {
+	.news-item:nth-child(3) {
 		margin: 15px 15px 0 0
 	}
-	[dir] .success-item {
+	.success-item {
 		margin: 20px
 	}
 	.success-item .large-text {
-		font-size: 20pt
-	}
-	[dir=rtl] .success-item .large-text {
+		font-size: 20pt;
 		float: right
 	}
 	.advantages {
@@ -239,51 +221,41 @@
 		display: none;
 		font-size: 5px
 	}
-	[dir] .news-container .action-info ul li {
+	.news-container .action-info ul li {
 		float: none
 	}
-	[dir] .action-info ul {
+	.action-info ul {
+		margin-right: 5px;
 		margin-bottom: 0
 	}
-	[dir=rtl] .action-info ul {
-		margin-right: 5px
-	}
-	[dir] .news-container .action-info ul {
+	.news-container .action-info ul {
+		margin-right: 5px;
 		margin-bottom: 0;
 		margin-top: -35px
 	}
-	[dir=rtl] .news-container .action-info ul {
-		margin-right: 5px
-	}
-	[dir=rtl] .news-container header {
+	.news-container header {
 		padding: 8px 17px 3px 0;
 		margin: 12px 12px 0 10px
 	}
 	.news-container .action-info-marg {
-		display: block
-	}
-	[dir] .news-container .action-info-marg {
-		clear: both
-	}
-	[dir=rtl] .news-container .action-info-marg {
+		display: block;
+		clear: both;
 		margin-right: 10%
 	}
 }
 
 @media (max-width: 480px) {
 	.acinf-small {
-		display: block
-	}
-	[dir=rtl] .acinf-small {
+		display: block;
 		float: right
 	}
 	.acinf-large {
 		display: none
 	}
-	[dir=rtl] .act-inf-news {
+	.act-inf-news {
 		padding-right: 5px
 	}
-	[dir=rtl] .margin-for-action li {
+	.margin-for-action li {
 		margin-right: 12px
 	}
 	.map-header h4 {
@@ -298,13 +270,13 @@
 	.baner-text header {
 		font-size: 30pt
 	}
-	[dir] .baner-menu li {
+	.baner-menu li {
 		margin: 10px 13px
 	}
-	[dir] .news-item:nth-child(3) {
+	.news-item:nth-child(3) {
 		margin: 15px 0 0
 	}
-	[dir] .success-item {
+	.success-item {
 		margin: 20px 4px
 	}
 	.baner-text p {
@@ -312,55 +284,47 @@
 		width: 95%
 	}
 	.success-item-text {
-		font-size: 7pt
-	}
-	[dir] .success-item-text {
+		font-size: 7pt;
 		margin: 15px 0
 	}
 	.success-item-text p {
 		font-size: 7pt
 	}
 	.success-item .large-text {
-		font-size: 15pt
-	}
-	[dir=rtl] .success-item .large-text {
+		font-size: 15pt;
 		float: right
 	}
 	.slider-award {
 		width: 162px;
-		display: inline-block
-	}
-	[dir] .slider-award {
+		display: inline-block;
+		margin-right: 30%;
 		margin-bottom: 50px
 	}
-	[dir=rtl] .slider-award {
-		margin-right: 30%
-	}
-	[dir=rtl] .success-item:nth-child(3) {
+	.success-item:nth-child(3) {
 		margin: 0 -15px 0 5px
 	}
-	[dir] .about-text span {
+	.about-text span {
 		padding: 30px
 	}
 	.adress .s2, .adress .s1 {
 		width: 200px
 	}
-	[dir] .map-info h3 {
+	.map-info h3 {
 		margin-bottom: 10px
 	}
-	[dir=rtl] .btn3 {
+	.btn3 {
 		margin-left: 0
 	}
-	[dir] .award-img img {
+	.award-img img {
 		margin-top: 30px
 	}
-	[dir] .liner .block-left, [dir] .liner .block-right {
+	.liner .block-left, .liner .block-right {
 		margin-bottom: 140px
 	}
-	[dir=rtl] .action-text {
+	.action-text {
 		margin: 10px 15px 0 20px
 	}
-	[dir] .action-info li {
+	.action-info li {
 		padding: 0
 	}
 	.action-info-marg {
@@ -375,25 +339,23 @@
 	.news-container .action-img {
 		height: 170px
 	}
-	[dir=rtl] .act-inf-news-full ul li {
+	.act-inf-news-full ul li {
 		margin: 0 15px 0 0
 	}
-	[dir] .news-container .action-info {
+	.news-container .action-info {
 		margin-top: 40px
 	}
 	.news-container header {
 		display: none
 	}
-	[dir=rtl] .ell2 {
+	.ell2 {
 		margin-right: -4px;
 	}
 }
 
 @media (min-width: 320px) {
 	.large-text {
-		font-size: 25pt
-	}
-	[dir] .large-text {
+		font-size: 25pt;
 		margin-top: -4px
 	}
 	#triangle-up {
@@ -402,18 +364,18 @@
 	.coment-item {
 		height: 400px
 	}
-	[dir] .baner-menu {
+	.baner-menu {
 		margin: 20px 0;
 		padding: 0
 	}
 }
 
 @media (min-width: 480px) {
-	[dir] .news-container .action-info {
+	.news-container .action-info {
 		margin: -17px 0 0;
 		margin-top: 25px
 	}
-	[dir=rtl] .action-info {
+	.action-info {
 		float: left
 	}
 	.acinf-small {
@@ -422,16 +384,16 @@
 	.acinf-large {
 		display: block
 	}
-	[dir] .menu-item:nth-child(7) {
+	.menu-item:nth-child(7) {
 		padding-bottom: 36px
 	}
-	[dir] .footer-menu .menu-item:nth-child(8) {
+	.footer-menu .menu-item:nth-child(8) {
 		margin: 19px 0 0
 	}
-	[dir=rtl] .news-container .action-text {
+	.news-container .action-text {
 		margin: 14px 15px 0 7px
 	}
-	[dir=rtl] .act-inf-news-full ul li {
+	.act-inf-news-full ul li {
 		margin: 0 15px -15px 0
 	}
 	.news-container header h1 {
@@ -443,28 +405,24 @@
 	.action-img img {
 		width: 100%
 	}
-	[dir=rtl] .act-inf-news {
+	.act-inf-news {
 		padding-right: 15px
 	}
 	.action-info-marg {
-		display: block
-	}
-	[dir] .action-info-marg {
-		clear: both
-	}
-	[dir=rtl] .action-info-marg {
+		display: block;
+		clear: both;
 		margin-right: -7px
 	}
-	[dir=rtl] .action-info li {
+	.action-info li {
 		padding: 0 0 0 10px
 	}
-	[dir=rtl] .margin-for-action li {
+	.margin-for-action li {
 		margin-right: 20px
 	}
 	.content-page ul li {
 		font-size: 13px
 	}
-	[dir=rtl] .action-text {
+	.action-text {
 		margin: 10px 10px 0 15px
 	}
 	.middle-text {
@@ -480,24 +438,22 @@
 	.coment-item {
 		height: 300px
 	}
-	[dir] .baner-menu li {
+	.baner-menu li {
 		margin: 10px 13px
 	}
 	.success-item-text {
 		font-size: 10pt
 	}
-	[dir=rtl] .about-text span {
+	.about-text span {
 		margin-left: 194px;
 		padding: 32px 34px 30px 32px
 	}
 	.slider-award {
 		width: 162px;
-		position: absolute
-	}
-	[dir=rtl] .slider-award {
+		position: absolute;
 		left: 29px
 	}
-	[dir=rtl] .ell2 {
+	.ell2 {
 		margin-right: 0;
 	}
 }
@@ -506,7 +462,7 @@
 	.sub-menu li {
 		display: inline-block
 	}
-	[dir=rtl] .news-container header {
+	.news-container header {
 		padding: 8px 20px 4px 0;
 		margin: 8px 26px 0 20px
 	}
@@ -523,7 +479,7 @@
 		width: 45%;
 		height: 400px
 	}
-	[dir] .baner-text {
+	.baner-text {
 		padding-top: 160px
 	}
 	.baner-text header {
@@ -533,29 +489,23 @@
 		font-size: 12pt;
 		width: 75%
 	}
-	[dir] .baner-menu li {
+	.baner-menu li {
 		margin: 10px 13px
 	}
 	.sub-menu li {
+		margin: 0 19px;
 		display: inline-block
-	}
-	[dir] .sub-menu li {
-		margin: 0 19px
 	}
 	.news .carousel-indicators {
 		bottom: -26px
 	}
-	[dir] .success-item {
+	.success-item {
 		margin-top: 20px
 	}
 	.success-item .large-text {
-		font-size: 25pt
-	}
-	[dir] .success-item .large-text {
-		margin-top: -1px
-	}
-	[dir=rtl] .success-item .large-text {
+		font-size: 25pt;
 		float: right;
+		margin-top: -1px;
 		margin-left: 3px
 	}
 	.possibility {
@@ -573,21 +523,19 @@
 	}
 	.float-window, .float-window1 {
 		top: 30%;
+		right: 32.5%;
 		width: 35%
-	}
-	[dir=rtl] .float-window, [dir=rtl] .float-window1 {
-		right: 32.5%
 	}
 	.cont-form {
 		width: 731px
 	}
-	[dir=rtl] .page-form3 .form-right {
+	.page-form3 .form-right {
 		float: left
 	}
-	[dir=rtl] .page-form3 .form-left {
+	.page-form3 .form-left {
 		float: right
 	}
-	[dir=rtl] .news-container .action-info ul li {
+	.news-container .action-info ul li {
 		float: right
 	}
 }
@@ -599,44 +547,40 @@
 	.coment-item {
 		height: 300px
 	}
-	[dir] .baner-menu {
+	.baner-menu {
 		margin: 49px 0;
 		padding: 0
 	}
-	[dir=rtl] .video-block .video {
+	.video-block .video {
 		float: right
 	}
 	.video-block .images {
 		height: 342px;
 		width: 635px
 	}
-	[dir] .copyrite {
+	.copyrite {
 		margin-top: -20px
 	}
 	.page-form .wpcf7-form-control-wrap {
 		position: relative;
-		display: inline-block;
-		width: 300px
-	}
-	[dir=rtl] .page-form .wpcf7-form-control-wrap {
 		float: right;
+		display: inline-block;
+		width: 300px;
 		margin-right: 35px
 	}
-	[dir] .page-form div.wpcf7-response-output {
+	.page-form div.wpcf7-response-output {
 		margin: 4em .5em 0;
 		padding: .2em 1em
 	}
-	[dir] .page-form div.wpcf7 img.ajax-loader {
+	.page-form div.wpcf7 img.ajax-loader {
 		margin-top: 30px
 	}
 	.page-form input {
-		width: 300px
-	}
-	[dir=rtl] .page-form input {
+		width: 300px;
 		float: right
 	}
 	@-moz-document url-prefix() {
-		[dir] .header-menu li a {
+		.header-menu li a {
 			padding: 15px 10px;
 		}
 	}
@@ -646,13 +590,13 @@
 	.adp-lg, .adp-sm, .adp-md {
 		display: inline-block
 	}
-	[dir] .success-item {
+	.success-item {
 		margin-top: 81px
 	}
-	[dir] .success-item:nth-child(2) {
+	.success-item:nth-child(2) {
 		margin: 0 133px
 	}
-	[dir=rtl] .success-item:nth-child(3) {
+	.success-item:nth-child(3) {
 		margin: 0 0 0 133px
 	}
 	.advantages {
@@ -660,70 +604,59 @@
 	}
 	.about-text {
 		position: absolute;
-		top: 46px
-	}
-	[dir=rtl] .about-text {
-		left: 20px
+		top: 46px;
+		left: 20px;
+		right: auto;
 	}
 	.about-img {
 		display: block
 	}
-	[dir=rtl] .about .carousel-indicators {
+	.about .carousel-indicators {
 		right: 35%
 	}
-	[dir=rtl] .logo {
+	.logo {
 		padding: 18px 60px 0 0
 	}
-	[dir=rtl] .info-board {
+	.info-board {
 		margin-right: 20px
 	}
-	[dir=rtl] .el-2 {
+	.el-2 {
 		margin-left: -30px
 	}
-	[dir=rtl] .lang {
+	.lang {
 		margin-right: 10px
 	}
-	[dir=rtl] .lang ul {
+	.lang ul {
 		margin-right: 40px
 	}
-	[dir=rtl] .info-board {
+	.info-board {
 		margin-right: 20px
 	}
 	.wp-block {
-		display: block
-	}
-	[dir] .wp-block {
-		margin: 10px
-	}
-	[dir=rtl] .wp-block {
+		display: block;
+		margin: 10px;
 		float: right
 	}
-	[dir=rtl] .white-paste-text {
+	.white-paste-text {
 		margin-right: 32px
 	}
 	.award-text {
-		width: 750px
-	}
-	[dir=rtl] .award-text {
 		float: right;
+		width: 750px;
 		text-align: right
 	}
 	.award-img {
-		width: 390px
-	}
-	[dir] .award-img {
+		float: right;
+		width: 390px;
 		margin-bottom: 60px
 	}
-	[dir=rtl] .award-img {
-		float: right
-	}
-	[dir=rtl] .award-img img {
+	.award-img img {
 		margin: 0 30px 0 0
 	}
 	.possibility {
 		width: 540px
 	}
-	[dir=rtl] .possibility:nth-child(2n) {
+	.possibility:nth-child(2n) {
 		margin-right: 30px
 	}
 	.news-container {
@@ -736,61 +669,57 @@
 	}
 	.page-form .wpcf7-form-control-wrap {
 		position: relative;
+		float: right;
 		display: inline-block;
 		/*width:320px;*/
-		width: 210px
-	}
-	[dir=rtl] .page-form .wpcf7-form-control-wrap {
-		float: right;
+		width: 210px;
 		margin-right: 40px
 	}
-	[dir] .page-form div.wpcf7-response-output {
+	.page-form div.wpcf7-response-output {
 		margin: 4em .5em 0;
 		padding: .2em 1em
 	}
-	[dir] .page-form div.wpcf7 img.ajax-loader {
+	.page-form div.wpcf7 img.ajax-loader {
 		margin-top: 30px
 	}
 	.page-form input {
 		/*width:320px;*/
-		width: 210px
-	}
-	[dir=rtl] .page-form input {
+		width: 210px;
 		float: right
 	}
 	.action-item {
 		width: 540px
 	}
-	[dir] .header-menu li a {
+	.header-menu li a {
 		padding: 15px 22px
 	}
 	@-moz-document url-prefix() {
-		[dir] .header-menu li a {
+		.header-menu li a {
 			padding: 15px 18px;
 		}
-		[dir=rtl] .success-item:nth-child(3) {
+		.success-item:nth-child(3) {
 			margin: 0 0 0 90px;
 		}
-		[dir] .success-item:nth-child(2) {
+		.success-item:nth-child(2) {
 			margin: 0 90px;
 		}
 	}
-	[dir=rtl] .liner .line {
+	.liner .line {
 		right: 50%
 	}
-	[dir=rtl] .circ {
+	.circ {
 		right: 50%
 	}
-	[dir=rtl] .liner .block-right p {
+	.liner .block-right p {
 		right: 665px
 	}
-	[dir=rtl] .liner .block-right span {
+	.liner .block-right span {
 		right: 600px
 	}
-	[dir=rtl] .liner .block-left span {
+	.liner .block-left span {
 		right: 477px
 	}
-	[dir=rtl] .liner .block-left p {
+	.liner .block-left p {
 		padding-right: 20px
 	}
 	.liner .block-left, .liner .block-right {
@@ -802,8 +731,6 @@
 	.cp-insert-cover {
 		width: 239px;
 		height: 209px;
-	}
-	[dir=rtl] .cp-insert-cover {
 		margin-right: 12px;
 	}
 }
@@ -813,38 +740,26 @@
 }
 
 .btn-act {
-	font-family: 'PT Sans Caption', sans-serif;
-	font-weight: 700;
-	text-transform: uppercase;
-	color: #fff;
-	display: inline-block
-}
-
-[dir] .btn-act {
 	margin: 30px 0 0;
 	padding: 11px 39px;
 	background-color: #FEA700;
 	border: 2px solid #FEA700;
-	border-radius: 3px
+	font-family: 'PT Sans Caption', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #fff;
+	border-radius: 3px;
+	display: inline-block
 }
 
 .btn-act:hover {
+	background: transparent;
 	color: #FEA700
 }
 
-[dir] .btn-act:hover {
-	background: transparent
-}
-
 .quote {
-	color: #4d4c4c
-}
-
-[dir] .quote {
-	margin-top: 50px
-}
-
-[dir=rtl] .quote {
 	border-right: 5px solid #c96830;
-	padding-right: 20px
+	padding-right: 20px;
+	color: #4d4c4c;
+	margin-top: 50px
 }
