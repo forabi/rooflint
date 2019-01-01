@@ -50,7 +50,7 @@ article {
 }
 
 .action-item:nth-child(2n) {
-	margin-left: 25px
+	margin-right: 25px
 }
 
 .news-container .action-img {
@@ -59,11 +59,11 @@ article {
 }
 
 .day-end {
-	margin-left: 17px
+	margin-right: 17px
 }
 
 .news-container .eye {
-	margin-left: 30%
+	margin-right: 30%
 }
 
 .action-img img {
@@ -74,21 +74,21 @@ article {
 	height: 66px;
 	background-color: #fff;
 	position: absolute;
-	left: 7px;
+	right: 7px;
 	bottom: 8px;
 	font-weight: 700;
 	font-family: 'PT Sans Caption', sans-serif;
 	color: #4d4c4c;
-	text-align: left;
+	text-align: right;
 	padding-top: 4px;
-	padding-right: 5px;
+	padding-left: 5px;
 	overflow: hidden
 }
 
 .large-text {
 	unicode-bidi: plaintext;
-	float: left;
-	margin-right: 3px
+	float: right;
+	margin-left: 3px
 }
 
 .middle-text {
@@ -100,7 +100,7 @@ article {
 	color: #8f8f8f;
 	position: absolute;
 	top: 20px;
-	left: -1px
+	right: -1px
 }
 
 .action-item-hover {
@@ -116,12 +116,12 @@ article {
 	color: #8f8f8f;
 	font-size: 9pt;
 	text-transform: uppercase;
-	border-left: 1px solid #ededed;
-	margin: 9px 0 0 5px
+	border-right: 1px solid #ededed;
+	margin: 9px 5px 0 0
 }
 
 .action-info ul {
-	margin-left: 15px;
+	margin-right: 15px;
 	margin-bottom: 0
 }
 
@@ -134,11 +134,11 @@ article {
 }
 
 .action-info-marg i {
-	padding-right: 30px;
+	padding-left: 30px;
 	color: #c96830;
 	font-style: normal;
 	background: url(../img/time.png)center right no-repeat;
-	background-position-x: right;
+	background-position-x: left;
 	width: 26px;
 	display: inline-block
 }
@@ -163,11 +163,11 @@ article {
 	font-family: 'PT Sans Caption', sans-serif;
 	font-weight: 700;
 	text-transform: uppercase;
-	float: left;
+	float: right;
 	display: block;
 	background: url(../img/more.png)center right no-repeat;
-	background-position-x: right;
-	padding-right: 16px;
+	background-position-x: left;
+	padding-left: 16px;
 	margin: 0 0 15px
 }
 
@@ -179,7 +179,7 @@ article {
 .action-item:hover .action-info i {
 	color: #8f8f8f;
 	background: url(../img/time_h.png)center right no-repeat;
-	background-position-x: right;
+	background-position-x: left;
 }
 
 .action-item:hover .action-main-text a, .action-item:hover .action-main-text p {
@@ -188,7 +188,7 @@ article {
 
 .action-item:hover .action-main-text a {
 	background: url(../img/more_h.png)center right no-repeat;
-	background-position-x: right;
+	background-position-x: left;
 }
 
 .page {
@@ -263,7 +263,7 @@ article {
 
 .baner-more {
 	border: 2px solid #ffd504;
-	padding: 14px 35px 15px 10px
+	padding: 14px 10px 15px 35px
 }
 
 .baner-more:hover {
@@ -272,7 +272,7 @@ article {
 
 .baner-more a {
 	background: url(../img/more_home.png) center right no-repeat;
-	background-position-x: right;
+	background-position-x: left;
 }
 
 .baner-menu a {
@@ -281,7 +281,7 @@ article {
 	color: #fff;
 	font-size: 14px;
 	text-transform: uppercase;
-	padding: 14px 15px 15px 20px
+	padding: 14px 20px 15px 15px
 }
 
 .sub-menu a {
@@ -318,7 +318,7 @@ article {
 .news-item-hover {
 	position: absolute;
 	top: 0;
-	left: 0;
+	right: 0;
 	width: 100%;
 	height: 100%;
 	background-color: #000;
@@ -370,12 +370,12 @@ article {
 	list-style-type: disc;
 	font-family: 'PT Sans Caption', sans-serif;
 	font-weight: 700;
-	float: left;
-	margin-left: 20px
+	float: right;
+	margin-right: 20px
 }
 
 .rubric li span {
-	margin-left: -5px;
+	margin-right: -5px;
 	color: #4D4C4C
 }
 
@@ -390,8 +390,8 @@ article {
 	font-weight: 700;
 	text-transform: uppercase;
 	background: url(../img/more.png)center right no-repeat;
-	background-position-x: right;
-	padding-right: 16px
+	background-position-x: left;
+	padding-left: 16px
 }
 
 .success {
@@ -406,7 +406,7 @@ article {
 	font-family: 'PT Sans Caption', sans-serif;
 	font-weight: 700;
 	color: #d67a3d;
-	text-align: left
+	text-align: right
 }
 
 .success-item p {
@@ -417,7 +417,7 @@ article {
 
 .success-item .large-text {
 	height: 76px;
-	padding: 10px 0 10px 59px
+	padding: 10px 59px 10px 0
 }
 
 .success-item .img1 {
@@ -458,7 +458,7 @@ article {
 
 .advantages-item {
 	display: block;
-	float: left;
+	float: right;
 	height: 220px;
 	margin: 10px 8px 3px
 }
@@ -506,7 +506,7 @@ article {
 .about-text span {
 	max-width: 555px;
 	display: block;
-	float: left
+	float: right
 }
 
 .about-text img {
@@ -527,7 +527,7 @@ article {
 .slider-award .carousel-indicators {
 	position: absolute;
 	bottom: -50px;
-	left: 80px
+	right: 80px
 }
 
 .coment {
@@ -549,7 +549,7 @@ article {
 	height: 95px;
 	position: absolute;
 	top: 0;
-	right: 22px;
+	left: 22px;
 	border: 2px solid #f1f1f1;
 	background-color: #f1f1f1;
 	border-radius: 50px;
@@ -578,10 +578,10 @@ article {
 	font-family: 'PT Sans Caption', sans-serif;
 	font-size: 12pt;
 	position: absolute;
-	left: 12px;
+	right: 12px;
 	bottom: 0;
 	color: #8f8f8f;
-	text-align: left
+	text-align: right
 }
 
 .coment-item .autor span {
@@ -591,19 +591,19 @@ article {
 	font-weight: 700;
 	text-transform: uppercase;
 	display: block;
-	text-align: left
+	text-align: right
 }
 
 #triangle-up {
 	z-index: 100;
 	width: 0;
 	height: 0;
-	border-left: 18px solid transparent;
 	border-right: 18px solid transparent;
+	border-left: 18px solid transparent;
 	border-top: 17px solid #FFF;
 	position: absolute;
 	bottom: 58px;
-	left: 7%;
+	right: 7%;
 	margin-top: 5px
 }
 
@@ -686,7 +686,7 @@ h2 {
 	height: 53px;
 	position: absolute;
 	top: 3px;
-	right: -80px;
+	left: -80px;
 	margin: 1px
 }
 
@@ -791,8 +791,8 @@ h2 {
 .icons .fa-inverse {
 	color: #cfcfcf;
 	margin: 7px;
-	margin-left: 4px;
-	margin-right: 0px;
+	margin-right: 4px;
+	margin-left: 0px;
 }
 
 .icons .fa-lg {
@@ -883,27 +883,27 @@ h2 {
 	height: 39px;
 	width: 385px;
 	font-size: 14px;
-	float: left;
-	padding-left: 7px;
-	margin: 20px 30px 20px 0
+	float: right;
+	padding-right: 7px;
+	margin: 20px 0 20px 30px
 }
 
 .design-form .user-page {
 	background-image: url(../img/user-silhouette.png);
 	background-repeat: no-repeat;
-	background-position: 95%;
+	background-position: 5%;
 	background-color: #fdfdfd;
 	border: 1px solid #f6f6f6;
-	padding-left: 10px
+	padding-right: 10px
 }
 
 .design-form .phone-page {
 	background-image: url(../img/phone-receiver.png);
 	background-repeat: no-repeat;
-	background-position: 95%;
+	background-position: 5%;
 	background-color: #fdfdfd;
 	border: 1px solid #f6f6f6;
-	padding-left: 10px
+	padding-right: 10px
 }
 
 .design-form .user-page:focus, .design-form .phone-page:focus {
@@ -912,7 +912,7 @@ h2 {
 }
 
 .design-form .btn4 {
-	margin-right: 0;
+	margin-left: 0;
 	width: 250px;
 	background-color: transparent;
 	border: 2px solid #ffd504;
@@ -954,7 +954,7 @@ h2 {
 
 .news-container .action-info {
 	clear: both;
-	float: left;
+	float: right;
 	width: initial;
 	border: none;
 	padding: 0
@@ -965,8 +965,8 @@ h2 {
 }
 
 .news-container header {
-	float: left;
-	border-left: 1px solid #ededed
+	float: right;
+	border-right: 1px solid #ededed
 }
 
 .news-sidebar .news-img {
@@ -984,15 +984,15 @@ h2 {
 }
 
 .soc {
-	float: right;
+	float: left;
 	margin: 15px 0 40px
 }
 
 .news-container .active {
 	margin-top: 30px;
 	font-weight: 700;
-	padding-left: 20px;
-	border-left: 4px solid #c96830
+	padding-right: 20px;
+	border-right: 4px solid #c96830
 }
 
 .workers {
@@ -1031,7 +1031,7 @@ h2 {
 .news-sidebar .action-block {
 	width: initial;
 	height: initial;
-	padding: 0 15px 9px 5px
+	padding: 0 5px 9px 15px
 }
 
 .news-sidebar .action-info {
@@ -1039,36 +1039,36 @@ h2 {
 }
 
 .act-inf-news {
-	float: left;
+	float: right;
 	width: initial
 }
 
 .act-inf-news ul li {
-	float: left;
-	margin: 5px 0 0 8px
+	float: right;
+	margin: 5px 8px 0 0
 }
 
 .act-inf-news ul li:first-child {
-	margin: 5px 0 0 5px
+	margin: 5px 5px 0 0
 }
 
 .eye {
-	background: url(../img/eye.png) left center no-repeat;
-	padding-left: 15px;
+	background: url(../img/eye.png) right center no-repeat;
+	padding-right: 15px;
 	display: block;
 	clear: both;
-	margin-left: 3px
+	margin-right: 3px
 }
 
 .act-inf-news-full .eye {
 	display: block;
-	float: left;
+	float: right;
 	font-size: 12px
 }
 
 ul.qtrans_language_chooser li {
 	list-style-type: none;
-	float: left;
+	float: right;
 	padding: 0 2px
 }
 
@@ -1133,7 +1133,7 @@ ul.qtrans_language_chooser li {
 	position: fixed;
 	display: none;
 	top: 0;
-	left: 0;
+	right: 0;
 	width: 100%;
 	height: 100%;
 	background-color: rgba(0, 0, 0, .8);
@@ -1143,12 +1143,12 @@ ul.qtrans_language_chooser li {
 
 .float-window .footer-form {
 	position: relative;
-	padding: 1px 5px 15px 0
+	padding: 1px 0 15px 5px
 }
 
 .exit {
 	position: absolute;
-	right: 0;
+	left: 0;
 	cursor: pointer;
 	background: url(../img/exit.png) center center no-repeat;
 	padding: 19px
@@ -1165,7 +1165,7 @@ ul.qtrans_language_chooser li {
 	position: fixed;
 	display: none;
 	top: 0;
-	left: 0;
+	right: 0;
 	width: 100%;
 	height: 100%;
 	background-color: rgba(0, 0, 0, .8);
@@ -1175,19 +1175,19 @@ ul.qtrans_language_chooser li {
 
 .float-window1 .footer-form {
 	position: relative;
-	padding: 1px 5px 15px 0
+	padding: 1px 0 15px 5px
 }
 
 .exit1 {
 	position: absolute;
-	right: 0;
+	left: 0;
 	cursor: pointer;
 	background: url(../img/exit.png) center center no-repeat;
 	padding: 19px
 }
 
 .soc-icon {
-	float: right;
+	float: left;
 	margin: 5px 0 10px
 }
 
@@ -1200,24 +1200,24 @@ ul.qtrans_language_chooser li {
 
 .img-file .hac {
 	position: absolute;
-	right: 3%;
+	left: 3%;
 	background: url(../img/att_file.png);
 	background-repeat: no-repeat;
-	background-position: 95%;
-	padding-right: 25px;
+	background-position: 5%;
+	padding-left: 25px;
 	color: #8f8f8f;
 	width: 140px;
 	z-index: -1000;
-	text-align: right
+	text-align: left
 }
 
 .img-file .file {
 	width: 115px;
 	opacity: 0;
 	height: 21px;
-	margin-right: 3%;
+	margin-left: 3%;
 	margin-top: 0;
-	float: right;
+	float: left;
 	cursor: pointer;
 	z-index: 100
 }
@@ -1239,7 +1239,7 @@ ul.qtrans_language_chooser li {
 }
 
 .ab-for-dil span {
-	margin-right: 0;
+	margin-left: 0;
 	max-width: 700px
 }
 
@@ -1266,7 +1266,7 @@ ul.qtrans_language_chooser li {
 
 .acinf-small {
 	font-weight: 700;
-	border-left: none;
+	border-right: none;
 	padding-top: 0!important
 }
 
@@ -1279,11 +1279,11 @@ a:hover, .baner-menu a:hover {
 }
 
 .action-text, .act-bl-text {
-	float: left
+	float: right
 }
 
 .action-main-text, .white-paste-text, .complet h4, .news-container, .news-container p {
-	text-align: left
+	text-align: right
 }
 
 .active, .news-sidebar .large-text, .news-sidebar .middle-text, .c-green {
@@ -1301,8 +1301,8 @@ a:hover, .baner-menu a:hover {
 	font-weight: 700;
 	text-transform: uppercase;
 	background: url(../img/more.png)center right no-repeat;
-	background-position-x: right;
-	padding-right: 16px
+	background-position-x: left;
+	padding-left: 16px
 }
 
 .about .slider-about img, .coment .cmt-slider img, .card-img img, .news-sidebar .news-item, .news-sidebar .news-item img {
@@ -1361,11 +1361,11 @@ a:hover, .baner-menu a:hover {
 
 .all {
 	background: url(../img/all.png) no-repeat;
-	background-position: 86%;
+	background-position: 14%;
 	cursor: pointer;
 	width: 150px;
-	margin-left: 72px;
-	padding-right: 16px
+	margin-right: 72px;
+	padding-left: 16px
 }
 
 .main2-link {
@@ -1374,11 +1374,11 @@ a:hover, .baner-menu a:hover {
 	font-family: 'PT Sans Caption', sans-serif;
 	font-weight: 700;
 	text-transform: uppercase;
-	padding-right: 16px
+	padding-left: 16px
 }
 
 .icons a {
-	padding: 4px 5px 19px 0;
+	padding: 4px 0 19px 5px;
 	cursor: pointer;
 	z-index: 10;
 }
@@ -1410,11 +1410,11 @@ a:hover, .baner-menu a:hover {
 
 .paragraph {
 	display: inline-block;
-	margin-left: 20px;
+	margin-right: 20px;
 }
 
 .content-page div>.col-md-6:nth-child(odd) {
-	clear: left;
+	clear: right;
 }
 
 .bottom-non {
@@ -1450,7 +1450,7 @@ a:hover, .baner-menu a:hover {
 
 .cp-insert-price {
 	position: absolute;
-	left: -13px;
+	right: -13px;
 	bottom: 23px;
 	padding: 0 9px;
 	height: 40px;
@@ -1466,7 +1466,7 @@ a:hover, .baner-menu a:hover {
 .cp-insert-info {
 	display: inline-block;
 	width: 100%;
-	text-align: left;
+	text-align: right;
 	color: #8f8f8f;
 	font-size: 13px;
 	margin-top: 20px;
@@ -1478,7 +1478,7 @@ a:hover, .baner-menu a:hover {
 	color: #fff;
 	font-size: 14px;
 	text-transform: uppercase;
-	padding: 14px 15px 15px 20px;
+	padding: 14px 20px 15px 15px;
 	border: 2px solid #c96830;
 	background-color: #c96830;
 	padding: 11px 12px 11px;
