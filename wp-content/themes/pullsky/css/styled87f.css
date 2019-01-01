@@ -86,6 +86,7 @@ article {
 }
 
 .large-text {
+	unicode-bidi: plaintext;
 	float: left;
 	margin-right: 3px
 }
@@ -783,7 +784,9 @@ h2 {
 
 .icons .fa-inverse {
 	color: #cfcfcf;
-	margin: 7px 4px
+	margin: 7px;
+	margin-left: 4px;
+	margin-right: 0px;
 }
 
 .icons .fa-lg {

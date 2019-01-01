@@ -574,7 +574,7 @@ circle1 p {
 
 .footer-form input {
     height: 38px;
-    margin: 18px 0 0;
+    margin: 18px 0 0 /* rtl:ignore */;
     width: 95%;
     font-size: 14px
 }
@@ -647,7 +647,7 @@ circle1 p {
     color: #c96830;
     width: 197px;
     height: 44px;
-    margin-left: 19px
+    margin-left: 19px /* rtl:ignore */;
 }
 
 .footer-form a {
