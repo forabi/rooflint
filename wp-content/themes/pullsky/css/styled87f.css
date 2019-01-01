@@ -8,8 +8,9 @@ textarea {
   direction: ltr;
 }
 
-.phone-ch .ui-selectmenu-text {
+.contact-phone, .phone-ch .ui-selectmenu-text {
   unicode-bidi: plaintext;
+  text-align: left;
 }
 
 li {
@@ -280,9 +281,11 @@ article {
   background-color: #ffd504;
 }
 
-.baner-more a {
-  background: url(../img/more_home.png) center right no-repeat;
-  background-position-x: right;
+.baner-more a::after {
+  margin-left: 5px;
+  content: url(../img/more_home.png);
+  transform: scaleX(-1) /* rtl:scaleX(1) */;
+  display: inline-block;
 }
 
 .baner-menu a {
@@ -291,7 +294,7 @@ article {
   color: #fff;
   font-size: 14px;
   text-transform: uppercase;
-  padding: 14px 15px 15px 20px;
+  padding: 15px;
 }
 
 .sub-menu a {

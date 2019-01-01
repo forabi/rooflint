@@ -11,8 +11,16 @@
   direction: rtl;
 }
 
-.phone-ch .ui-selectmenu-text {
+.contact-phone, .phone-ch .ui-selectmenu-text {
   unicode-bidi: plaintext;
+}
+
+[dir=ltr] .contact-phone, [dir=ltr] .phone-ch .ui-selectmenu-text {
+  text-align: left;
+}
+
+[dir=rtl] .contact-phone, [dir=rtl] .phone-ch .ui-selectmenu-text {
+  text-align: right;
 }
 
 li {
@@ -432,16 +440,19 @@ article {
   background-color: #ffd504;
 }
 
-[dir] .baner-more a {
-  background: url(../img/more_home.png) center right no-repeat;
+.baner-more a::after {
+  content: url(../img/more_home.png);
+  display: inline-block;
 }
 
-[dir=ltr] .baner-more a {
-  background-position-x: right;
+[dir=ltr] .baner-more a::after {
+  margin-left: 5px;
+  transform: scaleX(-1) /* rtl:scaleX(1) */;
 }
 
-[dir=rtl] .baner-more a {
-  background-position-x: left;
+[dir=rtl] .baner-more a::after {
+  margin-right: 5px;
+  transform: scaleX(1);
 }
 
 .baner-menu a {
@@ -452,12 +463,8 @@ article {
   text-transform: uppercase;
 }
 
-[dir=ltr] .baner-menu a {
-  padding: 14px 15px 15px 20px;
-}
-
-[dir=rtl] .baner-menu a {
-  padding: 14px 20px 15px 15px;
+[dir] .baner-menu a {
+  padding: 15px;
 }
 
 .sub-menu a {

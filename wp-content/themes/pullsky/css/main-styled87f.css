@@ -163,6 +163,10 @@ circle1 p {
 }
 
 .adress .s1 {
+    height: 100%;
+    display: inline-flex;
+    align-items: center;
+
     position: absolute;
     left: 96px;
     width: 267px;
@@ -1136,7 +1140,7 @@ circle1 p {
 .page-form2 .btn4 {
     width: 200px;
     position: relative;
-    left: 50%;
+    left: 50%/* rtl:0 */;
     margin-left: -100px;
     background-color: transparent;
     border: 2px solid #ffd504;
@@ -1264,7 +1268,8 @@ circle1 p {
 .page-form3 .btn4 {
     width: 200px;
     position: relative;
-    left: 70%;
+    left: 70% /*rtl:auto*/;
+    right: auto /*rtl:-70%*/;
     margin-left: -100px;
     background-color: transparent;
     border: 2px solid #ffd504;

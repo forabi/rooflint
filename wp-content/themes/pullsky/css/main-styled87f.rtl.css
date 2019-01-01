@@ -275,6 +275,10 @@ p {
 }
 
 .adress .s1 {
+    height: 100%;
+    display: inline-flex;
+    align-items: center;
+
     position: absolute;
     width: 267px;
     font-size: 14px;
@@ -1733,12 +1737,12 @@ p {
 }
 
 [dir=ltr] .page-form2 .btn4 {
-    left: 50%;
+    left: 50%/* rtl:0 */;
     margin-left: -100px
 }
 
 [dir=rtl] .page-form2 .btn4 {
-    right: 50%;
+    left: 0;
     margin-right: -100px
 }
 
@@ -1932,12 +1936,14 @@ p {
 }
 
 [dir=ltr] .page-form3 .btn4 {
-    left: 70%;
+    left: 70% /*rtl:auto*/;
+    right: auto /*rtl:-70%*/;
     margin-left: -100px
 }
 
 [dir=rtl] .page-form3 .btn4 {
-    right: 70%;
+    left: auto;
+    right: -70%;
     margin-right: -100px
 }
 
