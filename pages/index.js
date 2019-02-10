@@ -1,7 +1,7 @@
 import React, { PureComponent } from 'react';
 import moment from 'moment';
 
-const date = moment(new Date('2019-03-03 00:00 UTC'));
+const date = moment(new Date('2019-03-03 00:00'));
 
 export default class App extends PureComponent {
   state = {};
