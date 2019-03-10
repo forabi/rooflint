@@ -5,7 +5,7 @@ import MaskedInput from 'react-text-mask';
 import Modal from 'react-aria-modal';
 import './styles.css';
 
-const date = moment(new Date('2019-03-03 00:00'));
+const date = moment(new Date('2019-04-20 00:00'));
 const mask = [
   '+',
   /[1-9]/,
